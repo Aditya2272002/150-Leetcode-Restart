@@ -7,3 +7,4 @@ RESTART leetcode DSA
 2. Remover Element [05-02-2024]
 3. Remove Duplicates from Sorted Array [06-02-2024]
 4. Remove Duplicates from Sorted Array II [07-02-2024]
+5. Majority Element [12-02-2024]
