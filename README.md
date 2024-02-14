@@ -9,3 +9,4 @@ RESTART leetcode DSA
 4. Remove Duplicates from Sorted Array II [07-02-2024]
 5. Majority Element [12-02-2024]
 6. Rotate Array [13-02-2024]
+7. Best Time to buy and sell stock [14-02-2024]
