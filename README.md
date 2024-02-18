@@ -13,3 +13,4 @@ RESTART leetcode DSA
 8. Best Time to Buy and Sell Stock II [15-02-2024]
 9. Jump Game [16-02-2024]
 10. Jump game 2 [17-02-2024]
+11. H Index [18-02-2024]
