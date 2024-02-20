@@ -23,4 +23,34 @@ public:
 };
 
 
-// O{N} Solution
+// O{N} time O{N} space Solution
+
+class Solution {
+public:
+    vector<int> productExceptSelf(vector<int>& arr) {
+        int n = arr.size();
+        vector<int> left(n,1);
+        vector<int> right(n,1);
+
+        int temp = 1;
+        for(int i=0;i<n;i++){
+            left[i] = arr[i] * temp;
+            temp = left[i];
+        }
+
+        temp = 1;
+        for(int i=n-1;i>=0;i--){
+            right[i] = arr[i] * temp;
+            temp = right[i];
+        }
+
+        arr[n-1] = left[n-2];
+        arr[0] = right[1];
+        for(int i=1;i<n-1;i++){
+            arr[i] = left[i-1] * right[i+1];
+        }
+        return arr;
+
+    }
+};
+
