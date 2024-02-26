@@ -18,3 +18,4 @@ RESTART leetcode DSA
 13. Product of Array Except Self in O(n) no division [20-02-2024]
 14. Gas Station [22-02-2024 & 25-02-2024]
 15. Candy [26-02-2024]
+16. Trapping Rain Water [27-02-2024]
