@@ -20,3 +20,4 @@ RESTART leetcode DSA
 15. Candy [25-02-2024]
 16. Trapping Rain Water [26-02-2024]
 17. Roman to Integer [27-02-2023]
+18. Square Sorted Array in O{n} time complexity [02-03-2024]
