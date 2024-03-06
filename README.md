@@ -22,3 +22,4 @@ RESTART leetcode DSA
 17. Roman to Integer [27-02-2023]
 18. Square Sorted Array in O{n} time complexity [02-03-2024]
 19. Integer to Roman [04-03-2024]
+20. Length of the Last Word [06-03-2024]
