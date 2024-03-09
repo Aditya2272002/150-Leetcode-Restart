@@ -7,7 +7,7 @@ public:
             ans += s[start];
             start++;
         }
-        cout<< ans<<" ";
+        cout<<ans<<"\n";
         return ans;
     }
     
@@ -18,10 +18,16 @@ public:
 
         int i=n-1, j=n-1;
         while(i>=0 && j>=0){
+
+            while(i>=0 && j>=0 && i==j && s[i]==' '){
+                i--;j--;
+            }
+
             while(i>=0 && s[i]!=' '){
                 i--;
             }
-            ans += flag?subString(s, i+1, j): ' ' +subString(s, i+1, j);
+            if(i!=j)
+                ans += flag?subString(s, i+1, j): ' ' +subString(s, i+1, j);
             flag = 0;
             while(i>=0 && s[i]==' '){
                 i--;
