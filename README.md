@@ -26,3 +26,4 @@ RESTART leetcode DSA
 21.  Longest Common Prefix [06-03-2024]
 22.  Reverse Words in String [09-03-2024]
 23.  Find Index of first occurance in a String [14-03-2024]
+24.  Zigzag Conversion [15-03-2024]
