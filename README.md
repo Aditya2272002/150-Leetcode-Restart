@@ -25,3 +25,4 @@ RESTART leetcode DSA
 20. Length of the Last Word [06-03-2024]
 21.  Longest Common Prefix [06-03-2024]
 22.  Reverse Words in String [09-03-2024]
+23.  Find Index of first occurance in a String [14-03-2024]
